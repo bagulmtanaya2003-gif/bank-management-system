@@ -4,7 +4,11 @@ A simple **Bank Management System** built with **Python (Streamlit)** for the us
 
 ## Live Demo
 
+<<<<<<< HEAD
 🔗 [Try the App Here](https://bank-management-system-29.streamlit.app/)
+=======
+🔗 [Try the App Here]([https://bank-management-system-29.streamlit.app/])
+>>>>>>> 10de5cc6960b2beba73c2d9e1296bab581ebfb71
 
 ## Features
 
