@@ -1,6 +1,6 @@
 # Bank Management System
 
-A simple **Bank Management System** built with **Python (Streamlit)** for the user interface and **MySQL** for data storage. It allows users to create accounts, deposit and withdraw money, check balance, view transaction history, and manage multiple customers in one place.
+A simple **Bank Management System** built with **Python (Streamlit)** for the user interface and **MySQL** for data storage. It allows users to create accounts, deposit and withdraw money, check balance, view transaction history, reset forgotten passwords, and manage multiple customers in one place.
 
 ## Live Demo
 
@@ -13,7 +13,9 @@ A simple **Bank Management System** built with **Python (Streamlit)** for the us
 - Check account balance instantly
 - View a full account statement with complete transaction history
 - View all bank users and the full transaction ledger in one place
+- Reset a forgotten password using a security question
 - Close an existing account
+- Clean tab-based navigation for every banking operation
 - MySQL database ensures data is permanently stored and safe for multiple users
 
 ## Tech Stack
@@ -45,7 +47,7 @@ A simple **Bank Management System** built with **Python (Streamlit)** for the us
 ```
 bank-management-system/
 │
-├── banking_app.py        # main streamlit application
+├── app.py                 # main streamlit application
 ├── bank_schema.sql        # mysql database schema
 ├── requirements.txt       # python dependencies
 ├── README.md               # project documentation
@@ -70,7 +72,7 @@ pip install -r requirements.txt
 Open MySQL Workbench or MySQL CLI and run the file `bank_schema.sql`. This will create the `bankdb` database along with the `accounts` and `transactions` tables.
 
 ### 4. Configure database connection
-Open `banking_app.py` and update your MySQL credentials in the `get_connection()` function:
+Open `app.py` and update your MySQL credentials in the `get_connection()` function:
 ```python
 password="YOUR_MYSQL_PASSWORD"
 ```
@@ -91,9 +93,9 @@ The app will open automatically in your browser at `http://localhost:8501`.
 
 ## Author
 
-**Your Name**
+**Tanaya Bagul**
 📧 bagulmtanaya2003@email.com
-🔗 [LinkedIn](www.linkedin.com/in/tanaya-bagul-b21354285)
+🔗 [LinkedIn](https://www.linkedin.com/in/tanaya-bagul-b21354285)
 🔗 [GitHub](https://github.com/bagulmtanaya2003-gif)
 
 ## License
