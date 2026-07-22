@@ -28,19 +28,19 @@ A simple **Bank Management System** built with **Python (Streamlit)** for the us
 ## Application Preview
 
 **Dashboard - All Users**
-![Dashboard](screenshots/dashboard.png)
+[![Dashboard](screenshots/dashboard.png)](screenshots/dashboard.png)
 
 **Open New Account**
-![Create Account](screenshots/create-account.png)
+[![Create Account](screenshots/create-account.png)](screenshots/create-account.png)
 
 **Deposit Money**
-![Deposit](screenshots/deposit.png)
+[![Deposit](screenshots/deposit.png)](screenshots/deposit.png)
 
 **Withdraw Money**
-![Withdraw](screenshots/withdraw.png)
+[![Withdraw](screenshots/withdraw.png)](screenshots/withdraw.png)
 
 **Account Statement & History**
-![Statement](screenshots/statement.png)
+[![Statement](screenshots/statement.png)](screenshots/statement.png)
 
 ## Project Structure
 
